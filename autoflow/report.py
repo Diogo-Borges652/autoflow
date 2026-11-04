@@ -78,7 +78,8 @@ def render_html(summary: dict) -> str:
             )
             or '<tr><td colspan="4">Nenhum registro válido neste arquivo.</td></tr>'
         )
-        return f"""<section><h2>{title}</h2><div class="table"><table>
+        return f"""<section><h2>{title}</h2><div class="table"
+role="region" aria-label="{title}" tabindex="0"><table>
 <caption>{title} — apenas registros aceitos</caption><thead><tr>
 <th scope="col">Grupo</th><th scope="col">Receitas</th><th scope="col">Despesas</th>
 <th scope="col">Saldo</th></tr></thead><tbody>{rows}</tbody></table></div></section>"""
@@ -104,6 +105,7 @@ p{{line-height:1.6;max-width:78ch}}.muted{{color:#465e57}}
 article,section{{background:#fff;border:1px solid #c9d8d1;border-radius:12px;padding:22px}}
 article h2{{font-size:.85rem;font-weight:550;margin:0 0 16px}}
 strong{{font-size:clamp(1.2rem,2vw,1.6rem)}}
+.table:focus-visible{{outline:3px solid #184e43;outline-offset:4px}}
 section{{margin:20px 0}}section h2{{margin-top:0}}.table{{overflow-x:auto}}
 table{{border-collapse:collapse;width:100%;text-align:left}}
 th,td{{padding:14px 10px;border-bottom:1px solid #dce5df}}

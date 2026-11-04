@@ -1,0 +1,5 @@
+include requirements*.txt
+recursive-include examples *.csv *.xlsx
+recursive-include scripts *.py
+recursive-include docs *.md *.png
+recursive-include tests *.py

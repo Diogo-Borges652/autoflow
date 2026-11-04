@@ -1,0 +1,10 @@
+id;nome;email;categoria;data;tipo;valor
+DEMO-001; Empresa Exemplo Aurora ;FINANCEIRO@example.invalid;Serviços;2026-01-12;Receita;1500.00
+DEMO-002;Papelaria Fictícia;;Operação;15/01/2026;despesa;125,90
+DEMO-003;Cliente Demonstração;cliente@example.invalid;Serviços;2026-02-03;receita;2.400,50
+DEMO-004;Fornecedor Exemplo;;Infraestrutura;2026-02-05;despesa;320.00
+DEMO-002;Papelaria Fictícia;;Operação;15/01/2026;despesa;125,90
+DEMO-003;Cliente Demonstração;cliente@example.invalid;Serviços;2026-02-03;receita;2401.00
+DEMO-005;Registro sem valor;;;;receita;
+DEMO-006;Data inválida;;;31/02/2026;despesa;10.00
+DEMO-007;Registro sem categoria;;;2026-02-10;despesa;50
