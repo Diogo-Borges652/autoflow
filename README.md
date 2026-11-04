@@ -18,6 +18,16 @@ Planilhas recebidas de fontes diferentes podem conter valores ambíguos, campos 
 
 Não envia dados para serviços externos. Todos os exemplos em `examples/` são **fictícios**, inclusive nomes, e-mails e valores. Não exige credenciais.
 
+## Capturas reais
+
+Relatório produzido pelo CLI com os exemplos incluídos, capturado no Chromium:
+
+![Relatório real do AutoFlow em desktop](docs/relatorio-1440.png)
+
+[Captura em celular, 390 px](docs/relatorio-390.png) · [Captura em tablet, 768 px](docs/relatorio-768.png)
+
+As capturas representam o resultado efetivamente gerado, sem dados reais ou mockups de interface.
+
 ## Tecnologias e requisitos
 
 Python 3.11+, openpyxl 3.1.5 e defusedxml 0.7.1. `csv`, `decimal`, `argparse`, `unittest`, `logging` e demais utilitários são da biblioteca padrão. Ruff para lint/formatação; setuptools e build para empacotamento. Não há servidor ou banco de dados.
